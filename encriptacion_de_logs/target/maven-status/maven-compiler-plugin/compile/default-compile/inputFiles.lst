@@ -1,1 +1,8 @@
-D:\Documentos\Juan\Ingenieros\Redes\Seguridad\Paper\encryptacion_de_logs\src\main\java\edu\eci\spti\logsAPI\LogsAPIApplication.java
+D:\Documentos\Juan\Ingenieros\Redes\Seguridad\Paper\SPTI_Paper\encriptacion_de_logs\src\main\java\edu\eci\spti\logs\controllers\LogsAPIController.java
+D:\Documentos\Juan\Ingenieros\Redes\Seguridad\Paper\SPTI_Paper\encriptacion_de_logs\src\main\java\edu\eci\spti\logs\persistance\LogsNotFoundException.java
+D:\Documentos\Juan\Ingenieros\Redes\Seguridad\Paper\SPTI_Paper\encriptacion_de_logs\src\main\java\edu\eci\spti\logs\persistance\LogsPersistance.java
+D:\Documentos\Juan\Ingenieros\Redes\Seguridad\Paper\SPTI_Paper\encriptacion_de_logs\src\main\java\edu\eci\spti\logs\persistance\SecurityLogs.java
+D:\Documentos\Juan\Ingenieros\Redes\Seguridad\Paper\SPTI_Paper\encriptacion_de_logs\src\main\java\edu\eci\spti\logsAPI\LogsAPIApplication.java
+D:\Documentos\Juan\Ingenieros\Redes\Seguridad\Paper\SPTI_Paper\encriptacion_de_logs\src\main\java\edu\eci\spti\logs\model\Logs.java
+D:\Documentos\Juan\Ingenieros\Redes\Seguridad\Paper\SPTI_Paper\encriptacion_de_logs\src\main\java\edu\eci\spti\logs\persistance\impl\InMemoryLogsPersistance.java
+D:\Documentos\Juan\Ingenieros\Redes\Seguridad\Paper\SPTI_Paper\encriptacion_de_logs\src\main\java\edu\eci\spti\logs\services\LogsServices.java

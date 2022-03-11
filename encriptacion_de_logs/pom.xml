@@ -10,9 +10,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
   <groupId>edu.eci.spti</groupId>
-  <artifactId>encryptacion_de_logs</artifactId>
+  <artifactId>encriptacion_de_logs</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <name>encryptacion_de_logs</name>
+  <name>encriptacion_de_logs</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 

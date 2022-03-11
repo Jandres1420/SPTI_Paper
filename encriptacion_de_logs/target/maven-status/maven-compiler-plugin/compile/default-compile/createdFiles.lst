@@ -1,1 +1,5 @@
-edu\eci\spti\logs\persistance\impl\InMemoryLogs.class
+edu\eci\spti\logs\persistance\impl\InMemoryLogsPersistance.class
+edu\eci\spti\logs\services\LogsServices.class
+edu\eci\spti\logs\persistance\LogsNotFoundException.class
+edu\eci\spti\logs\persistance\SecurityLogs.class
+edu\eci\spti\logs\controllers\LogsAPIController.class
