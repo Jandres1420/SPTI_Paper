@@ -1,10 +1,12 @@
 package edu.eci.spti.logs.controllers;
 
+import edu.eci.spti.logs.model.User;
 import edu.eci.spti.logs.services.LogsServices;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
@@ -26,7 +28,7 @@ public class LogsAPIController {
     @RequestMapping(method = RequestMethod.GET)
     public ResponseEntity<?>getAllLogs(){
         try{
-            return new ResponseEntity<>(logsServices.getAllLogs(), HttpStatus.ACCEPTED);
+            return new ResponseEntity<>(logsServices.getAllUsers(), HttpStatus.ACCEPTED);
         }catch (Exception e){
             Logger.getLogger(LogsAPIController.class.getName()).log(Level.SEVERE, null, e);
             return new ResponseEntity<>("Error 404", HttpStatus.NOT_FOUND);
@@ -48,5 +50,16 @@ public class LogsAPIController {
         }
     }
 
+    /** **/
+    @RequestMapping(value = "/add", method = RequestMethod.POST)
+    public ResponseEntity<?> manejadorPostRecursoPlanos(@RequestBody User user) {
+        try {
+            logsServices.addNewLog(user);
+            return new ResponseEntity<>(HttpStatus.CREATED.getReasonPhrase(), HttpStatus.CREATED);
+        } catch (Exception e) {
+            e.printStackTrace();
+            return new ResponseEntity<>("Error 404", HttpStatus.FORBIDDEN);
+        }
+    }
 
 }
